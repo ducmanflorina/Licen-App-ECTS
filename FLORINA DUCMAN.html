@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="ro">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Licență App ECTS</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main class="app">
+<header>
+  <h1>Licență App ECTS</h1>
+  <p>Învățare pentru licență: materii, test, simulare, greșeli și statistici.</p>
+</header>
+<nav class="tabs">
+  <button onclick="showSubjects()">Materii</button>
+  <button onclick="startLearning()">Învățare</button>
+  <button onclick="startTest(60)">Test 60</button>
+  <button onclick="startTest(45)">Simulare 45</button>
+  <button onclick="showMistakes()">Greșeli</button>
+  <button onclick="showStats()">Statistici</button>
+</nav>
+<section id="screen"></section>
+</main>
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
